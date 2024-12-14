@@ -53,4 +53,5 @@ Below is a graph comparing the accuracy, precision, and recall of all the method
 5. Run `Model_Traditional.ipynb` for traditional model outcomes.
 6. Run `Novel_model_baseline.ipynb` for getting the baseline for the novel model.
 7. Run `Novel_model.ipynb` for getting the outcomes of the novel model.
+
 NOTE: In Novel_model.ipynb, there is a grid search in the XGBoost classifier which has the hyperparameter tuning options. If you want to run that, then uncomment those lines of code and comment the current one out. We kept the current one to run faster
