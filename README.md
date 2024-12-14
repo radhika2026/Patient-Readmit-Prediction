@@ -45,7 +45,7 @@ Below is a graph comparing the accuracy, precision, and recall of all the method
 
 ---
 
-## Steps to Implement the Code
+## Steps to Run the Code
 1. The original dataset is in `diabetes_data.csv`.
 2. Run each cell in the notebook `Data_Cleaning.ipynb`, which will create a new file: `cleaned_diabetes_data.csv`.
 3. Use `cleaned_diabetes_data.csv` for feature engineering in by running `Feature_Engineering.ipynb`, which creates a new file: `cleaned_data_2.csv`.
@@ -53,3 +53,5 @@ Below is a graph comparing the accuracy, precision, and recall of all the method
 5. Run `Model_Traditional.ipynb` for traditional model outcomes.
 6. Run `Novel_model_baseline.ipynb` for getting the baseline for the novel model.
 7. Run `Novel_model.ipynb` for getting the outcomes of the novel model.
+
+NOTE: In Novel_model.ipynb, there is a grid search in the XGBoost classifier which has the hyperparameter tuning options. If you want to run that, then uncomment those lines of code and comment the current one out. We kept the current one to run faster
