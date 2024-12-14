@@ -45,7 +45,7 @@ Below is a graph comparing the accuracy, precision, and recall of all the method
 
 ---
 
-## Steps to Implement the Code
+## Steps to Run the Code
 1. The original dataset is in `diabetes_data.csv`.
 2. Run each cell in the notebook `Data_Cleaning.ipynb`, which will create a new file: `cleaned_diabetes_data.csv`.
 3. Use `cleaned_diabetes_data.csv` for feature engineering in by running `Feature_Engineering.ipynb`, which creates a new file: `cleaned_data_2.csv`.
